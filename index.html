@@ -575,7 +575,7 @@ async function connectAzure() {
   try {
     showLoading('Connecting to backend...', 'Secure Azure authentication');
 
-    const response = await fetch("http:// localhost:3000/connect-azure", {
+    const response = await fetch("http://localhost:3000/connect-azure", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
