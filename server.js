@@ -75,4 +75,4 @@ app.post("/connect-azure", async (req, res) => {
     }
 });
 
-app.listen(3000, () => console.log("Backend running on http:// 192.168.1.6:3000"));
+app.listen(3000, () => console.log("Backend running on http:// localhost:3000"));
