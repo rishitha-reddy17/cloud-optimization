@@ -6,7 +6,7 @@ const cors = require("cors");
 const app = express();
 app.use(bodyParser.json());
 app.use(cors());
-
+ 
 // 🔐 Your credentials will come from frontend
 app.post("/connect-azure", async (req, res) => {
     const { tenantId, clientId, clientSecret, subscriptionId } = req.body;
